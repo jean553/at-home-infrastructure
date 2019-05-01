@@ -1,5 +1,7 @@
 # at-home-infrastructure
 
+The server part of [AtHome](https://github.com/jean553/at-home).
+
 This documentation explains how to build and run the at-home infrastructure.
 
 Most of these steps have to be done with the AWS CLI command tool and the AWS console.
