@@ -11,7 +11,7 @@ spec:
         app: "at-home-server"
     spec:
       containers:
-        - image: 538175400773.dkr.ecr.eu-west-3.amazonaws.com/at-home-server:latest
+        - image: YOUR_CLIENT_ID.dkr.ecr.eu-west-3.amazonaws.com/at-home-server:latest
           imagePullPolicy: Always
           name: "at-home-server"
           ports:
