@@ -261,7 +261,7 @@ Deploy the namespace for all the AtHome kubernetes components:
 kubectl apply -f at-home-server-namespace.yaml
 ```
 
-Deploy the pods from the Docker image:
+Deploy the pods from the Docker image (set the correct ECR URL into the yaml configuration file first):
 
 ```sh
 kubectl apply -f at-home-server-deployment.yaml
