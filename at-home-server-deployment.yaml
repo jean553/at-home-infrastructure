@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: "at-home-server-deployment"
+  namespace: "at-home-server"
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: "at-home-server"
+    spec:
+      containers:
+        - image: 538175400773.dkr.ecr.eu-west-3.amazonaws.com/at-home-server:latest
+          imagePullPolicy: Always
+          name: "at-home-server"
+          ports:
+            - containerPort: 8000 
