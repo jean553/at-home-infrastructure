@@ -4,6 +4,11 @@ The server part of [AtHome](https://github.com/jean553/at-home).
 
 This documentation explains how to build and run the at-home infrastructure.
 
+It is mainly based on these two official documentations:
+ * https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html,
+ * https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/
+(but contains the AtHome app specificities)
+
 Most of these steps have to be done with the AWS CLI command tool and the AWS console.
 
 ## Requirements
